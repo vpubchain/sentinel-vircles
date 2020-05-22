@@ -34,7 +34,7 @@ class VirclesConfig():
         creds = {key: value for (key, value) in match}
 
         # standard Vircles defaults...
-        default_port = 9370 if (network == 'mainnet') else 19370
+        default_port = 9088 if (network == 'mainnet') else 19370
 
         # use default port for network if not specified in vircles.conf
         if not ('port' in creds):
